@@ -104,7 +104,7 @@ pip install -r requirements.txt
 cp .env
 
 # Run the backend
-uvicorn main:app --reload
+uvicorn app:app --reload
 ```
 
 #### Frontend Setup
